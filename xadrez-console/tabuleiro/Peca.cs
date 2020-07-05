@@ -14,5 +14,10 @@
             this.QteMovimentos = 0;
             this.Tab = tab;
         }
+
+        public void IncrementarQtdMovimentos()
+        {
+            QteMovimentos++;
+        }
     }
 }
