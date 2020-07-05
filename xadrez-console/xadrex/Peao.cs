@@ -9,9 +9,8 @@ namespace xadrez
 
         private PartidaXadrez Partida;
 
-        public Peao(Tabuleiro tab, Cor cor, PartidaXadrez partida) : base(cor, tab)
+        public Peao(Tabuleiro tab, Cor cor) : base(cor, tab)
         {
-            this.Partida = partida;
         }
 
         public override string ToString()
